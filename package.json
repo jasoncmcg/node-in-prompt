@@ -1,0 +1,24 @@
+{
+  "name": "node-in-prompt",
+  "version": "1.0.0",
+  "description": "Prompt to enter information into a node script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasoncmcg/node-in-prompt.git"
+  },
+  "keywords": [
+    "node",
+    "prompt",
+    "menu"
+  ],
+  "author": "Jason McGinnis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasoncmcg/node-in-prompt/issues"
+  },
+  "homepage": "https://github.com/jasoncmcg/node-in-prompt#readme"
+}
