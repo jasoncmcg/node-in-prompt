@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var readline = require('readline');
 
 var rl = readline.createInterface({
@@ -12,10 +11,8 @@ rl.setPrompt('\x1b[32mSelect[#]\x1b[32m>\x1b[0m ');
 rl.prompt();
 
 var numbers = new Array;
-//var options = ['first', 'second', 'third'];
 var options;
 
-//renderOptions();
 var cb = {};
 
 rl.on('line', function (entry) {
@@ -37,7 +34,7 @@ rl.on('line', function (entry) {
 
     process.stdout.write('\x1b[;H\x1b[2J');
 
-	  renderOptions(options);
+    renderOptions(options);
 
     console.log('Selected: ', numbers);
     rl.prompt();
@@ -54,7 +51,6 @@ function starter(list, callback) {
 		return new starter(list, callback);
 	}
 
-	//this.list = list;
   renderOptions(list);
   options = list;
   cb = callback;
@@ -88,7 +84,6 @@ renderOptions = function(options) {
 
 
 module.exports = starter;
-=======
 var readline = require('readline'),
     rl = readline.createInterface(process.stdin, process.stdout);
 
@@ -114,4 +109,4 @@ exports.promptStart = function (promptName) {
 	rl.setPrompt(promptName);
 	rl.prompt();
 }
->>>>>>> origin/master
+
