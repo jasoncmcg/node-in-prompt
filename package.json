@@ -1,0 +1,11 @@
+{
+  "name": "node-in-prompt",
+  "version": "1.0.0",
+  "description": "Get a menu prompt and return selected index",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason McGinnis",
+  "license": "ISC"
+}
